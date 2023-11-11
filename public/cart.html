@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="https://kit.fontawesome.com/30581fc693.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="/assets/logo.png" class="logo" alt="logo of urbanic"/></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/public/shopping.html">Shopping</a></li>
+                    <li><a href="/public/about.html">About</a></li>
+                    <li><a href="/public/contact.html">Contact</a></li>
+                    <li id="lg-bag"><a class="active" href="/public/cart.html"><i class="fa-solid fa-cart-shopping"></i></li></a>
+                    <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+                </ul>
+            </div>
+
+            <div id="mobile">
+                <a href="/public/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+
+    </section>
+
+    <section id="cart-header">
+        <h2>Cart</h2>
+        <p>Buy more! Save more</p>
+    </section> 
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-x"></i></a></td>
+                    <td><img src="/assets/cool1.jpg"> </td>
+                    <td>Co-ord set</td>
+                    <td>Rs. 3690</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs. 3690</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-x"></i></a></td>
+                    <td><img src="/assets/cool2.jpg"> </td>
+                    <td>Printed Slip Dress</td>
+                    <td>Rs. 2990</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs. 3990</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-x"></i></a></td>
+                    <td><img src="/assets/cool3.jpg"> </td>
+                    <td>Faux leather jacket</td>
+                    <td>Rs. 3690</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs. 3690</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h4>apply coupon</h4>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h4>Cart Total</h4>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rs. 10,370</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs. 10,370</strong> </td>
+                </tr>
+            </table>
+
+            <button>Proceed to checkout</button>
+        </div>
+    </section>
+
+    <hr />
+
+    <img src="/assets/logo.png" alt="image of logo" class="logo hi"/>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p><strong>Phone: </strong> +91-9987654321</p>
+            <div class="fol">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>   
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Info</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="/assets/app-logo.png" class="logo ap"/>
+                <img src="/assets/play-logo.png" class="logo pl"/>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copy">
+        <p>©️ A template of E-commerce of Urbanic</p>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
